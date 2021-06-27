@@ -15,6 +15,7 @@ var myVar;
         $to = $email;
         $subject="Email Verification";
         $message="<p>hello</P>";
+        $message="<a href='localhost/yuvraj/unsub.php?email=$email'>Unsubscribe</a>";
         $headers= "From: catchcomic@yahoo.com \r\n";
         $headers .="MIME-Version: 1.0" . "\r\n";
         $headers .="Content-type:text/html ; charset=UTF-8". "\r\n"; 
